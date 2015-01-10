@@ -35,6 +35,15 @@ and open the template in the editor.
         $second->add_grade(80);
         $second->add_grade(50);
         $students['a456'] = $second;
+        
+        $third = new Student();
+        $third->surname = "Chiang";
+        $third->first_name = "William";
+        $third->add_email('home', 'williampwc@hotmail.com');
+        $third->add_grade(95);
+        $third->add_grade(80);
+        $third->add_grade(50);
+        $students['w101'] = $third;
 
         ksort($students);
         
